@@ -1,3 +1,3 @@
 number = [1, 2, 3]
-new_number = number.map{[2, 4, 6]}
+new_number = number.map{ |n| n * 2 }
 puts new_number

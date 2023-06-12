@@ -2,6 +2,6 @@
 array = [1, 2, 3, 4]
 array << 5
 array << 6
-if array.sum? then
-  next
-end
+
+list = array.select { |n| n.odd? }
+puts list.sum
